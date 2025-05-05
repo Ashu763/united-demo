@@ -33,6 +33,10 @@
 
 }
 
+.z:hover{
+ box-shadow: black 6px 5px;   
+}
+
 .apply-2 {
    border-radius: 30px;
    margin-left: 80px;
@@ -40,6 +44,12 @@
    margin-top: 15px;
    font-size: large;
    font-family: sans-serif;
+}
+
+.apply-2:hover{
+    
+      box-shadow: black 6px 5px;   
+     
 }
 
 
@@ -252,11 +262,27 @@
 
 
 .two-b {
-   border-radius: 5px;
+   border-radius: 10px;
    color: rgba(0, 0, 0, 0.791);
    padding: 10px;
    font-size: 17px;
+   font-family: Georgia, 'Times New Roman', Times,;
    width: 200px;
+   margin: 25px;
+}
+
+.two-b:hover{
+
+       border: 1px solid black;
+      box-shadow: black 6px 5px;   
+}
+
+
+.main-bg{
+    background-color: rgb(6, 6, 114);
+     width: 100%;
+      height: 100%;
+       padding: 20px;
 }
 
 .start-j {
@@ -327,9 +353,21 @@
       margin-top: 15px;
       margin-bottom: 10px;
    }
-   .master-div img{
+
+   .master-div img {
       width: 98px;
       height: 100px;
+   }
+
+   .two-b{
+         border-radius: 5px;
+         color: rgba(0, 0, 0, 0.791);
+         padding: 10px;
+         font-size: 17px;
+         width: 120px;
+         margin: 25px;
+         color: darkblue;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', ;
    }
 }
 
@@ -343,9 +381,21 @@
       text-align: center;
       margin: 10px;
    }
-   .master-div img{
+
+   .master-div img {
       width: 98px;
       height: 100px;
+   }
+
+   .two-b {
+      border-radius: 5px;
+      color: rgba(0, 0, 0, 0.791);
+      padding: 10px;
+      font-size: 17px;
+      width: 120px;
+      margin: 25px;
+      color: darkblue;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', ;
    }
 }
 
@@ -355,27 +405,24 @@
    .master-div {
       width: 190px;
       height: 200px;
-     justify-content: center;
-      margin-right:0px;
+      justify-content: center;
+      margin-right: 0px;
    }
-   .master-div img{
+
+   .master-div img {
       width: 98px;
       height: 100px;
    }
 
-   .form-b{
+   .form-b {
       width: 90%
    }
-   
+
 
 }
 
 
 
-@media (min-width:578px) {
+@media (min-width:578px) {}
 
-}
-
-@media (max-width:578px) {
-
-}
+@media (max-width:578px) {}
