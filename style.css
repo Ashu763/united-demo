@@ -1,9 +1,7 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Dancing+Script:wght@400..700&family=Khand:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Syncopate:wght@400;700&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
 
 
-body{
+body {
    font-family: 'poppins';
 }
 
@@ -65,9 +63,10 @@ body{
    margin-top: 15px;
    font-size: large;
    font-family: sans-serif;
+   margin-bottom: 4%;
 }
 
-.crousel-3{
+.crousel-3 {
    display: none;
 
 }
@@ -77,10 +76,10 @@ body{
    width: 200px;
    font-size: large;
    font-family: sans-serif;
-   background-color:#52B3FE;
+   background-color: #52B3FE;
    color: white;
-   
-   
+
+
 }
 
 .apply-4 {
@@ -183,6 +182,7 @@ body{
 
 .white-1 {
    background-color: white;
+ 
 
 }
 
@@ -192,7 +192,8 @@ body{
 }
 
 .white-1 {
-   border-radius: 5px;
+   border-radius: 20px;
+
 }
 
 .uttam {
@@ -375,7 +376,7 @@ body{
 .b-main {
    border: 1px solid black;
    border-radius: 18px;
-  
+
 }
 
 .argest-h {
@@ -428,7 +429,7 @@ body{
 
 }
 
-.cenh4{
+.cenh4 {
    text-align: center;
    font-weight: bold;
    margin-top: 20px;
@@ -448,61 +449,61 @@ body{
 }
 
 
-.course-c{
+.course-c {
    border-radius: 20px;
    border: 1px solid black;
 }
 
 
-.crousel-4{
+.crousel-4 {
 
    margin-bottom: 50px;
 }
 
 
-.benefits-para{
+.benefits-para {
    color: gray;
    font-weight: 500;
    font-size: large;
    margin-top: 25px;
 }
 
-.benefits-text{
+.benefits-text {
    margin-top: 20px;
    font-size: x-large
 }
 
-.benefits-heading{
+.benefits-heading {
    margin-top: 35px;
    margin-bottom: 30px;
 }
 
-.sir-aboutus{
-   width:450px;
-    height:400px;
-    border-radius: 20px;
-    margin-top: 40px;
+.sir-aboutus {
+   width: 450px;
+   height: 400px;
+   border-radius: 20px;
+   margin-top: 40px;
 }
 
- .b-color-sir{
+.b-color-sir {
    background-color: #042f72;
    margin-top: 40px;
- }
+}
 
- .about-p{
+.about-p {
    color: white;
    font-size: large;
    margin-top: 30px;
- }
+}
 
- 
 
- .about-h{
+
+.about-h {
    color: white;
    font-size: 40px;
-   font-weight:500;
+   font-weight: 500;
    margin-top: 40px;
- }
+}
 
 
 .exploremore {
@@ -513,19 +514,151 @@ body{
 }
 
 
-.hover-c{
+.hover-c {
    width: 300px;
    height: 170px;
    border: 1px solid black;
    border-radius: 50px;
 }
 
-.hover-b{
-   width:500px;
-   height:35vh;
+.hover-b {
+   width: 500px;
+   height: 35vh;
    border: 1px solid black;
    border-radius: 50px;
    margin-top: 30px;
+}
+
+
+.ourstory-main {
+   background-image: url(images/background\ 2.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: auto;
+   position: relative;
+   overflow-y: hidden;
+}
+
+.ourstory-p {
+   position: absolute;
+   top: 10%;
+   left: 15%;
+   font-size: xx-large;
+   color: white;
+}
+
+.ourstory-p2 {
+   position: absolute;
+   top: 15%;
+   left: 30%;
+   font-size: xx-large;
+   color: white;
+}
+
+.ourstory-p3 {
+   position: absolute;
+   top: 50%;
+   left: 20%;
+}
+
+
+.ourstory-p4 {
+   position: absolute;
+   top: 50%;
+   left: 31%;
+   font-size: xx-large;
+   color: skyblue;
+   font-weight: bold;
+   font-family: Verdana;
+}
+
+.ourstory-p5 {
+   position: absolute;
+   top: 70%;
+   text-align: center;
+   left: 1%;
+   font-size: x-large;
+   color: white;
+}
+
+.diploma-start
+
+.diploma-main{
+   margin-top: 18%;
+}
+
+.diploma-image-1{
+   border: 2px solid black;
+}
+
+
+.diploma-image-2{
+   border: 2px solid black;
+}
+
+
+
+.bold-feedback{
+   font-weight: bold;
+   font-size: 45px;
+   text-align: center;
+}
+
+.bold-faq{
+   font-weight: bold;
+   font-size: 45px;
+   text-align: center;
+}
+
+
+
+.feedback-main{
+   background-color: #EBECEF;
+   border-radius: 15PX;
+   margin-top: 50px;
+
+}
+
+.faqback{
+   background-color: #042f72;
+   color: white;
+}
+
+.faqhead{
+   color:black
+}
+
+.acc-item{
+   color: rgb(34, 34, 145);
+}
+
+.footer-main{
+   background-color: #042f72;
+   margin-top:10%;
+}
+
+
+.address-icon{
+   color: white;
+   margin-top: 30px;
+}
+
+
+.address-c{
+   color: white;
+   padding: 5%;
+}
+
+
+.mail-footer{
+   color: white;
+    
+}
+
+
+.address-display{
+   display: flex;
+   
 }
 
 @media (min-width:769px) {
@@ -570,29 +703,29 @@ body{
       height: 100px;
    }
 
-   .img-corve{
+   .img-corve {
       width: 300px;
       height: 250px;
       margin: 0vw 3vw;
    }
 
 
-   .corve{
+   .corve {
       margin-bottom: 40px;
    }
 
-   
 
 
-   .crousel-3{
+
+   .crousel-3 {
       display: block;
-      
+
    }
 
-   .crousel-4{
+   .crousel-4 {
       display: none;
-    }
-   
+   }
+
 
    .two-b {
       border-radius: 5px;
@@ -637,7 +770,29 @@ body{
       font-size: small;
       font-family: sans-serif;
    }
-   
+
+   .ourstory-p3 {
+      position: absolute;
+      top: 50%;
+      left: 10%;
+   }
+
+   .ourstory-p5 {
+      position: absolute;
+      top: 70%;
+      text-align: center;
+      left: 1%;
+      font-size: medium;
+      color: white;
+   }
+
+
+   .diploma-image-1{
+   border: 2px solid black;
+   margin-top: 20%;
+}
+
+
 }
 
 
@@ -651,11 +806,11 @@ body{
       margin: 10px;
    }
 
-   .corve{
+   .corve {
       margin-bottom: 40px;
    }
 
-   .img-corve{
+   .img-corve {
       width: 300px;
       height: 250px;
    }
@@ -665,16 +820,16 @@ body{
       height: 100px;
    }
 
-   .crousel-3{
+   .crousel-3 {
       display: block;
-      
+
    }
 
-   .crousel-4{
-     display: none;
+   .crousel-4 {
+      display: none;
    }
 
-   
+
 
    .two-b {
       border-radius: 5px;
@@ -704,7 +859,16 @@ body{
       font-size: small;
       font-family: sans-serif;
    }
-   
+
+
+
+   .ourstory-p3 {
+      position: absolute;
+      top: 50%;
+      left: 10%;
+   }
+
+
 
 
 }
