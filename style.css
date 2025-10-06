@@ -182,7 +182,7 @@ body {
 
 .white-1 {
    background-color: white;
- 
+
 
 }
 
@@ -581,30 +581,28 @@ body {
    color: white;
 }
 
-.diploma-start
-
-.diploma-main{
+.diploma-start .diploma-main {
    margin-top: 18%;
 }
 
-.diploma-image-1{
+.diploma-image-1 {
    border: 2px solid black;
 }
 
 
-.diploma-image-2{
+.diploma-image-2 {
    border: 2px solid black;
 }
 
 
 
-.bold-feedback{
+.bold-feedback {
    font-weight: bold;
    font-size: 45px;
    text-align: center;
 }
 
-.bold-faq{
+.bold-faq {
    font-weight: bold;
    font-size: 45px;
    text-align: center;
@@ -612,53 +610,256 @@ body {
 
 
 
-.feedback-main{
+.feedback-main {
    background-color: #EBECEF;
    border-radius: 15PX;
    margin-top: 50px;
 
 }
 
-.faqback{
+.faqback {
    background-color: #042f72;
    color: white;
 }
 
-.faqhead{
-   color:black
+.faqhead {
+   color: black
 }
 
-.acc-item{
+.acc-item {
    color: rgb(34, 34, 145);
 }
 
-.footer-main{
+.footer-main {
    background-color: #042f72;
-   margin-top:10%;
+   margin-top: 10%;
 }
 
 
-.address-icon{
+.address-icon {
    color: white;
    margin-top: 30px;
 }
 
 
-.address-c{
+.address-c {
    color: white;
+   padding: 5%;
+   font-size: large;
+}
+
+
+.mail-footer {
+   color: white;
+
+}
+
+
+.address-display {
+   display: flex;
+
+}
+
+
+.offline-head {
+   color: white;
+   text-decoration: underline;
+
+}
+
+
+.offline-p {
+   color: white;
+   font-size: large;
+}
+
+
+
+.online-head {
+   color: white;
+   text-decoration: underline;
+}
+
+
+.online-p {
+   color: white;
+   font-size: large;
+}
+
+
+.offline-interview {
+   color: white;
+   text-align: center;
+   font-weight: bold;
+   font-size: xx-large;
+   font-family: Georgia, 'Times New Roman', Times, ;
+}
+
+.hr-white {
+   color: white;
+}
+
+.interview-head {
+   color: white;
+}
+
+
+.interview-p {
+   color: white;
+}
+
+
+.footer-map {
+   border: 1px solid black;
+   border-radius: 10px;
+}
+
+
+.madeinindia {
+   background-color: black;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.made-orange {
+   color: rgb(244, 101, 49);
+}
+
+.india-green {
+   color: green;
+}
+
+
+
+
+.eaccounting-head{
+   font-size: xx-large;
+   font-weight: bold;
+
+}
+
+
+
+.eaccounting-tools{
+
+   font-weight: bold;
+   font-size: xx-large;
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, ;
+   margin-top: 50px;
+}
+
+.tool-icon{
+   border-radius: 20px;
+}
+
+.eaccounting-crourse-syllabus{
+   background-image: url(images/background\ 2.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+
+}
+
+
+.eaccounting-croursesyllabus-h{
+   font-weight: bold;
+   font-size: xx-large;
+
+}
+
+.eaccounting-p{
+   font-size: x-large;
+}
+
+
+.eaccounting-talk{
+   width: 200px;
+   height: 50px;
+   margin-bottom: 20px;
+   border-radius: 30px;
+   
+
+}
+
+
+.eaccounting-talk:hover {
+   width: 200px;
+   height: 50px;
+   margin-bottom: 20px;
+   border-radius: 30px;
+   border: 1px solid black;
+   box-shadow: black 6px 5px;
+
+}
+
+.eaccounting-offone {
+   border-radius: 30px;
+   margin-left: 80px;
+   width: 200px;
+   margin-top: 15px;
+   font-size: large;
+   font-family: sans-serif;
+   margin-bottom: 4%;
+}
+
+
+
+.tools {
+   text-align: center;
+   font-weight: bold;
+ font-size: xx-large;
+   margin-top: 20px;
+
+}
+
+
+
+.Group-186{
+   border-radius: 20px;
+}
+
+.text-b{
+
+  border-radius: 10px;
+   color: rgba(0, 0, 0, 0.791);
+   padding: 10px;
+   font-family: Georgia, 'Times New Roman', Times, ;
+   width: 200px;
+   margin: 25px;
+   font-size: 15px;
+}
+
+
+
+.text-b:hover {
+
+   border: 1px solid black;
+   box-shadow: black 6px 5px;
+   background-color: #0B5Ed7;
+}
+
+
+
+.card-argest{
+   justify-content: space-evenly;
+}
+
+.card{
    padding: 5%;
 }
 
-
-.mail-footer{
-   color: white;
-    
+.card-border{
+   border-radius: 25px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   padding:15px
 }
 
 
-.address-display{
-   display: flex;
-   
+.card-head{
+   font-size: medium;
+   font-family: Georgia,;
+   font-weight: bold;
 }
 
 @media (min-width:769px) {
@@ -787,10 +988,73 @@ body {
    }
 
 
-   .diploma-image-1{
-   border: 2px solid black;
-   margin-top: 20%;
+   .diploma-image-1 {
+      border: 2px solid black;
+      margin-top: 20%;
+   }
+
+   .offline-p {
+      color: white;
+      font-size: medium;
+   }
+
+
+   .offline-head {
+      color: white;
+      text-align: center;
+
+   }
+
+   .footer-image {
+      margin-left: 100px;
+   }
+
+.eaccounting-offone {
+   border-radius: 30px;
+   margin-left: 40px;
+   width: 200px;
+   margin-top: 15px;
+   font-size: large;
+   font-family: sans-serif;
+   margin-bottom: 4%;
 }
+
+
+.eaccounting-croursesyllabus-h{
+   font-weight: bold;
+   font-size:small;
+
+}
+
+.eaccounting-p{
+   font-size: small;
+}
+
+
+
+
+.eaccounting-talk{
+   width: 100px;
+   height: 50px;
+   margin-bottom: 20px;
+   border-radius: 30px;
+   font-size: small;
+
+}
+
+
+
+  .text-b {
+      border-radius: 5px;
+      color: rgba(0, 0, 0, 0.791);
+      padding: 10px;
+      font-size: 17px;
+      width: 120px;
+      margin: 25px;
+      color: darkblue;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', ;
+   }
+
 
 
 }
@@ -866,8 +1130,23 @@ body {
       position: absolute;
       top: 50%;
       left: 10%;
+  
+  
    }
 
+
+
+   
+.z-1 {
+   border-radius: 30px;
+   border: 1px solid black;
+   margin-top: 2rem;
+   margin-bottom: 1rem;
+   width: 100%;
+   height: 10%;
+   font-size: small;
+
+}
 
 
 
